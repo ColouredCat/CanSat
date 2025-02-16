@@ -38,6 +38,8 @@ def str_time():
     return "{}:{}:{}".format(str_time[3],str_time[4],str_time[5])
 
 def main():
+    #wait to ensure laptop has esablished connection
+    time.sleep(1)
     print("Ground Station Pico Starting...")
 
     #turn on onboard led
@@ -48,6 +50,7 @@ def main():
     #start radio
     radio = Radio()
     print("Radio Initialised Succesfully!")
+    print("Time: {}".format(str_time()))
     print("Begining to recieve radio messages...")
 
     # start reciving radio data
@@ -63,8 +66,7 @@ def main():
             #print recived time and signal strength
             print("RSSI : {}".format(radio.rfm9x.rssi))
             print("Time Recived : {}".format(str_time()))
-        else:
-            print("No data recieved")
+        print("Time Recived : {}".format(str_time()))
 
 if __name__ == "__main__":
     main()

@@ -64,7 +64,7 @@ class Window(tk.Tk):
                 print("There was an error conecting to the pico.")
                 print("Please ensure it is pluged it, and specify the serial path it is conected to using the config file.")
                 sleep(0.5)
-
+                
     def __init__(self):
 
         self.window_setup()
