@@ -33,7 +33,8 @@ class Radio:
 
 #retrurns time in a human readable format
 def str_time():
-    str_time = time.struct_time()
+    time_ = time.time()
+    str_time = time.localtime(time_)
     return "{}:{}:{}".format(str_time[3],str_time[4],str_time[5])
 
 def main():
@@ -62,6 +63,8 @@ def main():
             #print recived time and signal strength
             print("RSSI : {}".format(radio.rfm9x.rssi))
             print("Time Recived : {}".format(str_time()))
+        else:
+            print("No data recieved")
 
 if __name__ == "__main__":
     main()

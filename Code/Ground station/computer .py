@@ -3,7 +3,6 @@
 # Writen by Robert Jordan
 
 import serial
-import tkinter as tk
 import config
 from datetime import datetime
 from time import sleep
@@ -12,7 +11,7 @@ from time import sleep
 def time():
     return datetime.now().strftime("%H:%M:%S")
 
-class Window(tk.Tk):
+class Window():
 
     def loop(self):
         try:
@@ -20,34 +19,16 @@ class Window(tk.Tk):
             if self.pico.inWaiting():
                 data = self.pico.readline().decode("utf-8")
 
-                # remove peskey control characters!
+                # remove pesky control characters!
                 data = data.replace("\015", " ")
                 data = data.replace("\033", " ")
 
-                self.text.insert("end", data)
+                print(data)
                 self.log.write(str(data))
         except serial.SerialException:
-            # output a warning on exception
-            self.text.insert("end", "There was an error reading from the serial\n")
-            self.text.insert("end", "Pico may be unplugged or sending corrupt data.\n")
-
-        #repeat every tick_speed ms
-        self.after(config.tick_speed, self.loop)
-
-    def window_setup(self):
-        super().__init__()
-        self.title(config.win_name) 
-
-        tk.Label(self,text="CanSat Ground Station Reciver").pack()
-        tk.Label(self,text="Reciving data from port " + config.serial_port).pack()
-
-        scrollbar = tk.Scrollbar(self) 
-        scrollbar.pack(side=tk.RIGHT, fill=tk.Y) 
-    
-        self.text = tk.Text(self, width =config.text_width
-                    , height=config.text_height) 
-        self.text.pack(fill=tk.BOTH) 
-        scrollbar.config(command=self.text.yview) 
+            # print a warning on exception
+            print("There was an error reading from the serial.")
+            print("Pico may be unplugged or sending corrupt data.")
 
     def open_serial(self):
         #start serial to pico
@@ -56,8 +37,8 @@ class Window(tk.Tk):
             try:
                 self.pico = serial.Serial(config.serial_port)
                 #open port if not already open
-                if not self.pico.isOpen():
-                    self.pico.open()
+                #if not self.pico.isOpen():
+                    #self.pico.open()
                 running = False
             except serial.SerialException:
                 # retry if exeption occors
@@ -66,8 +47,6 @@ class Window(tk.Tk):
                 sleep(0.5)
 
     def __init__(self):
-
-        self.window_setup()
 
         #create log file
         try:
@@ -79,9 +58,13 @@ class Window(tk.Tk):
 
         self.open_serial()
 
-        # start mainloop
-        self.loop()
-        self.mainloop()
+        running = True
+        while running:
+            try:
+                self.loop()
+                sleep(config.tick_speed)
+            except KeyboardInterrupt:
+                running = False
 
 if __name__ == "__main__":
     win = Window()
