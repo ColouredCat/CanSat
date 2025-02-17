@@ -28,10 +28,10 @@ def main():
 
     while True:
         # send report on temp and pressure
-        time = str_time()
+        tme = str_time()
         tmp = sensor.temperature()
         prs = sensor.pressure()
-        msg = "Sent : {} \nTemperature : {} \nPressure : {}\n".format(time, tmp, prs)
+        msg = "Sent : {} \nTemperature : {} \nPressure : {}\n".format(tme, tmp, prs)
         radio.send(msg)
 
 

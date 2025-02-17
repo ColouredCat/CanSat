@@ -5,11 +5,12 @@ import busio
 import time
 import adafruit_rfm9x
 import adafruit_bmp280
+from math import floor
 
 class Radio:
     def recive(self):
         return self.rfm9x.receive(timeout=1.0)
-    def send(message, self):
+    def send(self, message):
         print(message)
         self.rfm9x.send(message)
     def __init__(self):
