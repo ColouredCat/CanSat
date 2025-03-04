@@ -5,33 +5,40 @@ def proc_value(v):
     lst.pop(-1)
     v = ''.join(lst)
     #return number rounded to 2 d.p
-    return round(float(v), 2)
+    try:
+        n = round(float(v), 2)
+        return n
+    except ValueError:
+        #if data si invalid return none
+        return None
 
-
-def main():
-    f = open("log", 'r+')
-
+def proc_file(f):
     #look through lines in file
     rssi, tmp, prs, rec, sen = [], [], [], [], []
     for line in f.readlines():
         line = line.split(":")
 
-        #sortd data into lists based on type
+        #sort data into lists based on type
         if "RSSI" in line[0]:
             rssi.append(proc_value(line[-1]))
-        elif "Time Recived" in line[0]:
+        if "Time Recived" in line[0]:
             rec.append(proc_value(line[-1]))
-        elif "Sent" in line[0]:
+        if "Sent" in line[0]:
             sen.append(proc_value(line[-1]))
-        elif "Temperature" in line[0]:
+        if "Temperature" in line[0]:
             tmp.append(proc_value(line[-1]))
-        elif "Pressure" in line[0]:
+        if "Pressure" in line[0]:
             prs.append(proc_value(line[-1]))
 
+    return rssi, tmp, prs, rec, sen
+
+def main():
+    f = open("log", 'r+')
+
+    #get data to plot
+    rssi, tmp, prs, rec, sen = proc_file(f)
             
     print(rssi, rec)
-
-
     f.close()
 
 if __name__ == "__main__":
