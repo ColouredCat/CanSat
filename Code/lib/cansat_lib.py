@@ -5,7 +5,6 @@ import busio
 import time
 import adafruit_rfm9x
 import adafruit_bmp280
-from math import floor
 
 class Radio:
     def recive(self):
@@ -53,6 +52,4 @@ class Sensor:
 
 #retrurns time in a human readable format
 def str_time():
-    time_ = time.time()
-    str_time = time.localtime(time_)
-    return "{}:{}:{}".format(str_time[3],str_time[4],str_time[5])
+    return str(time.monotonic())

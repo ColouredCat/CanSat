@@ -31,7 +31,7 @@ def main():
         tme = str_time()
         tmp = sensor.temperature()
         prs = sensor.pressure()
-        msg = "Sent : {} \nTemperature : {} \nPressure : {}\n".format(tme, tmp, prs)
+        msg = "Sent : {} \nTemperature : {} \nPressure : {}".format(tme, tmp, prs)
         radio.send(msg)
 
 

@@ -36,8 +36,8 @@ def main():
 
             #print recived time and signal strength
             print("RSSI : {}".format(radio.rfm9x.rssi))
-            print("Time Recived : {}".format(str_time()))
-        print("Time Recived : {}".format(str_time()))
+            print("Time Recived : {}\n".format(str_time()))
+        print("No data recieved : {}".format(str_time()))
 
 if __name__ == "__main__":
     main()
