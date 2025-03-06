@@ -1,4 +1,8 @@
 
+# CanSat Data Proccesing
+# Sort log files in graphs with matplotlib
+# Writen by Robert Jordan
+
 import matplotlib.pyplot as plt
 
 def proc_value(v):
@@ -34,17 +38,26 @@ def proc_file(f):
 
     return rssi, tmp, prs, rec, sen
 
+def altitude(grd_prs, prs):
+    # use barometric formula to calculate altitude from prs
+    # using grd_prs as a reference point
+    alt = []
+    for p in prs:
+        a = 44330*((1-p/grd_prs)*(1/5.225))
+        #round to 2 d.p
+        a = round(a, 2)
+        alt.append(a)
+    return alt
+
 def plot_data(data, label, title):
     #generte x axis
     x = range(len(data))
 
-    #enable everything for the graph
     plt.plot(x, data)
     plt.xlabel("Time")
     plt.ylabel(label)
     plt.title(title)
     plt.grid(True)
-    plt.legend()
     plt.show()
 
 
@@ -54,12 +67,14 @@ def main():
     #get data to plot
     rssi, tmp, prs, rec, sen = proc_file(f)
 
-    plot_data(rssi, "Signal strength", "Recieved Signal Strength Indication over time")
+    #generate altitude using fist pressure reading as reference
+    alt = altitude(prs[0], prs)
+
+    plot_data(rssi, "Signal strength", "RSSI over time")
     plot_data(tmp, "Temperature (deg. C)", "Temperature over time")
-    plot_data(prs, "Pressure", "Pressure over time")
-    plot_data(rec, "Pressure", "Pressure over time")
-            
-    print(rssi, tmp, prs)
+    plot_data(prs, "Pressure (hPa)", "Pressure over time")
+    plot_data(alt, "Aprox. Altitude (m)", "Altitude over time")
+
     f.close()
 
 if __name__ == "__main__":
