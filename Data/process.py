@@ -62,7 +62,7 @@ def plot_data(data, label, title):
 
 
 def main():
-    f = open("log", 'r+')
+    f = open("logs/TestA_prelaunch", 'r+')
 
     #get data to plot
     rssi, tmp, prs, rec, sen = proc_file(f)
