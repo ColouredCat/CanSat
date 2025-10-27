@@ -23,7 +23,7 @@ def main():
     radio.send("Sensor Module Initialised!")
 
     # start mainloop
-    radio.send("Hello from CanSat!\nBegining Transmition...")
+    radio.send("Hello from CanSat!\nBegiooing Transmuion...")
 
     while True:
         # send report on temp and pressure
