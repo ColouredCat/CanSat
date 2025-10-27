@@ -9,7 +9,7 @@ import time
 from cansat_lib import Radio, str_time
 
 def main():
-    #wait to ensure laptop has esablished connection
+    #wait to ensure laptop has esablished 
     time.sleep(1)
     print("Ground Station Pico Starting...")
 
