@@ -12,10 +12,11 @@ class Radio:
         try:
             self.rfm9x.receive(timeout=1.0)
         except Exception as e:
-            print("Radio falire!")
-            print("The exception that occred was: {}".format(e))
+            print("Radio falire!\nThe exception that occred was: {}".format(e))
 
     def send(self, message):
+        # append the signiture of the CanSat
+        message = "CVC-CANSAT:" + message
         #radio can't send over 255 bytes, so limit the message at that
         if len(message) > 255:
             print("Message too large! Cutting it short at 255 bytes...")
@@ -27,8 +28,7 @@ class Radio:
         try:
             self.rfm9x.send(message)
         except Exception as e:
-            print("Radio falire!")
-            print("The exception that occred was: {}".format(e))
+            print("Radio falire!\nThe exception that occred was: {}".format(e))
 
     def __init__(self):
         init = False
@@ -44,8 +44,7 @@ class Radio:
                 init = True
             except Exception as e:
                 # retry on error
-                print("Could not initialise radio module!")
-                print("The exception that occured was: {}".format(e))
+                print("Could not initialise radio module!\nThe exception that occured was: {}".format(e))
                 time.sleep(3)
 
 class Sensor:
@@ -76,8 +75,7 @@ class Sensor:
                 init = True
             except Exception as e:
                 # retry on error
-                self.radio.send("Could not initialise sensor module!")
-                self.radio.send("The exception that occured was: {}".format(e))
+                self.radio.send("Could not initialise sensor module!\nThe exception that occured was: {}".format(e))
                 time.sleep(3)
 
 
