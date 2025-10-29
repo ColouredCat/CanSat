@@ -19,18 +19,19 @@ def main():
     # initailise modules
     radio = Radio()
     radio.send("Radio Module Initialised!")
-    sensor = Sensor(radio)
+    #sensor = Sensor(radio)
     radio.send("Sensor Module Initialised!")
 
-    # send the header for the csv file to confirm initialisation
-    radio.send("uptime,temperature,pressure")
+    # start mainloop
+    radio.send("Hello from CanSat!")
+    radio.send("Begining Transmition...")
 
     while True:
         # send report on temp and pressure
         tme = str_time()
-        tmp = sensor.temperature()
-        prs = sensor.pressure()
-        msg = "{},{},{}".format(tme, tmp, prs)
+        #tmp = sensor.temperature()
+        #prs = sensor.pressure()
+        msg = "Sent : {} \nTemperature : {} \nPressure : {}\n".format(tme)# tmp, prs)
         radio.send(msg)
         time.sleep(1)
 
