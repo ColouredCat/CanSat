@@ -7,7 +7,7 @@ import adafruit_rfm9x
 import adafruit_bmp280
 
 class Radio:
-    def receive(self):
+    def recive(self):
         #try and revieve, checking the radio is still initialised
         try:
             self.rfm9x.receive(timeout=1.0)
