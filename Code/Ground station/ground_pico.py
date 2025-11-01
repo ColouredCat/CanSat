@@ -9,8 +9,6 @@ import time
 from cansat_lib import Radio, str_time
 
 def main():
-    #wait to ensure laptop has esablished connection
-    time.sleep(1)
     print("Ground Station Pico Starting...")
 
     #turn on onboard led
@@ -26,18 +24,8 @@ def main():
 
     # start reciving radio data
     while True:
-        data = radio.recive()
-
-        #check if any data is recived
-        if data is not None:
-            #convert data to ascii
-            data = str(data, 'ascii')
-            print(data)
-
-            #print recived time and signal strength
-            print("RSSI : {}".format(radio.rfm9x.rssi))
-            print("Time Recived : {}\n".format(str_time()))
-        print("No data recieved : {}".format(str_time()))
+        radio.recive()
 
 if __name__ == "__main__":
     main()
+

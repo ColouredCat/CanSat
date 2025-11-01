@@ -5,10 +5,9 @@
 import digitalio
 import board
 import time
-from cansat_lib import Radio, Sensor, str_time
+from cansat_lib import Radio, BMP, str_time, MPU
 
 def main():
-    time.sleep(1)
     print("CanSat Starting...")
 
     #turn on onboard led
@@ -19,20 +18,22 @@ def main():
     # initailise modules
     radio = Radio()
     radio.send("Radio Module Initialised!")
-    sensor = Sensor(radio)
-    radio.send("Sensor Module Initialised!")
+    BMP_sensor = BMP(radio)
+    radio.send("BMP Module Initialised!")
+    MPU_sensor = MPU(radio)
+    radio.send("MPU Module Initialised!")
 
-    # send the header for the csv file to confirm initialisation
-    radio.send("uptime,temperature,pressure")
+    radio.send("Starting data transmition...")
 
     while True:
         # send report on temp and pressure
         tme = str_time()
-        tmp = sensor.temperature()
-        prs = sensor.pressure()
-        msg = "{},{},{}".format(tme, tmp, prs)
+        tmp = BMP_sensor.temperature()
+        prs = BMP_sensor.pressure()
+        msg = "{},{},{},".format(tme, tmp, prs)
+        msg += MPU_sensor.reading()
         radio.send(msg)
-        time.sleep(1)
+        time.sleep(0.5)
 
 
 if __name__ == "__main__":
