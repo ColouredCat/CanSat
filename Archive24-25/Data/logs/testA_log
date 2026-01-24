@@ -1,0 +1,115 @@
+ ]0;🐍code.py | 9.2.4 \Ground Station Pico Starting... 
+Radio Initialised Succesfully! 
+Time: 2.347 
+Begining to recieve radio messages... 
+Temp =20.9102Pressure =1028.35 
+RSSI : -99 
+Time Recived : 3.281 
+No Data Recived : 4.287 
+Temp =20.9078Pressure =1028.34 
+RSSI : -98 
+Time Recived : 4.447 
+No Data Recived : 5.452 
+Temp =20.9102Pressure =1028.35 
+RSSI : -99 
+Time Recived : 5.613 
+No Data Recived : 6.619 
+No Data Recived : 6.777 
+No Data Recived : 7.782 
+Temp =20.9053Pressure =1028.36 
+RSSI : -98 
+Time Recived : 7.946 
+No Data Recived : 8.952 
+No Data Recived : 9.11 
+No Data Recived : 10.115 
+No Data Recived : 11.12 
+No Data Recived : 12.125 
+No Data Recived : 13.129 
+No Data Recived : 14.134 
+No Data Recived : 15.14 
+No Data Recived : 16.145 
+Temp =20.8879 Pressure =1028.33 
+RSSI : -99 
+Time Recived : 17.025 
+No Data Recived : 18.03 
+Temp =20.8928 Pressure =1028.32 
+RSSI : -101 
+Time Recived : 18.192 
+No Data Recived : 19.198 
+Temp =20.8904 Pressure =1028.33 
+RSSI : -99 
+Time Recived : 19.359 
+No Data Recived : 20.365 
+Temp =20.8879 Pressure =1028.33 
+RSSI : -101 
+Time Recived : 20.527 
+No Data Recived : 21.532 
+Temp =20.8879 Pressure =1028.33 
+RSSI : -100 
+Time Recived : 21.694 
+No Data Recived : 22.699 
+Temp =20.8879 Pressure =1028.33 
+RSSI : -97 
+Time Recived : 22.861 
+No Data Recived : 23.866 
+Temp =20.8779 Pressure =1028.3 
+RSSI : -100 
+Time Recived : 24.027 
+No Data Recived : 25.033 
+No Data Recived : 26.039 
+No Data Recived : 27.043 
+No Data Recived : 27.523 
+No Data Recived : 28.529 
+No Data Recived : 29.535 
+No Data Recived : 30.54 
+No Data Recived : 31.543 
+No Data Recived : 32.548 
+No Data Recived : 33.553 
+No Data Recived : 34.558 
+Temp = 20.8605 Pressure = 1028.3 
+RSSI : -99 
+Time Recived : 35.235 
+No Data Recived : 36.24 
+Temp = 20.8631 Pressure = 1028.32 
+RSSI : -99 
+Time Recived : 36.406 
+No Data Recived : 37.412 
+Temp = 20.8656 Pressure = 1028.32 
+RSSI : -99 
+Time Recived : 37.578 
+No Data Recived : 38.583 
+Temp = 20.8656 Pressure = 1028.33 
+RSSI : -99 
+Time Recived : 38.75 
+No Data Recived : 39.754 
+Temp = 20.873 Pressure = 1028.32 
+RSSI : -100 
+Time Recived : 39.917 
+No Data Recived : 40.923 
+Temp = 20.8656 Pressure = 1028.33 
+RSSI : -100 
+Time Recived : 41.09 
+No Data Recived : 42.095 
+Temp = 20.8656 Pressure = 1028.3 
+RSSI : -99 
+Time Recived : 42.257 
+No Data Recived : 43.262 
+Temp = 20.868 Pressure = 1028.33 
+RSSI : -99 
+Time Recived : 43.424 
+No Data Recived : 44.43 
+Temp = 20.868 Pressure = 1028.32 
+RSSI : -98 
+Time Recived : 44.59 
+No Data Recived : 45.595 
+Temp = 20.8557 Pressure = 1028.31 
+RSSI : -99 
+Time Recived : 45.76 
+No Data Recived : 46.766 
+No Data Recived : 46.927 
+No Data Recived : 47.933 
+No Data Recived : 48.101 
+No Data Recived : 49.106 
+Temp = 20.8557 Pressure = 1028.32 
+RSSI : -99 
+Time Recived : 49.277 

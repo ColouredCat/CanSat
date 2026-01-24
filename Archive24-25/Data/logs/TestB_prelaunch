@@ -1,0 +1,301 @@
+🐍code.py | 9.2.4 \No Data Recived : 337.67 
+No Data Recived : 338.676 
+No Data Recived : 339.681 
+No Data Recived : 340.686 
+No Data Recived : 341.691 
+No Data Recived : 342.696 
+No Data Recived : 343.701 
+No Data Recived : 344.706 
+No Data Recived : 345.71 
+No Data Recived : 346.716 
+No Data Recived : 347.721 
+No Data Recived : 348.726 
+No Data Recived : 349.731 
+No Data Recived : 350.737 
+No Data Recived : 351.742 
+No Data Recived : 352.747 
+No Data Recived : 353.752 
+No Data Recived : 354.757 
+No Data Recived : 355.762 
+No Data Recived : 356.768 
+No Data Recived : 357.773 
+No Data Recived : 358.778 
+No Data Recived : 359.783 
+No Data Recived : 360.789 
+No Data Recived : 361.793 
+No Data Recived : 362.798 
+No Data Recived : 363.804 
+No Data Recived : 364.81 
+No Data Recived : 365.815 
+No Data Recived : 366.82 
+Radio Module Initialised! 
+RSSI : -48 
+Time Recived : 367.208 
+Sensor Module Initialised! 
+RSSI : -49 
+Time Recived : 367.298 
+Hello from CanSat! 
+RSSI : -50 
+Time Recived : 367.356 
+Begining Transmition... 
+RSSI : -49 
+Time Recived : 367.426 
+Sent : None  
+Temperature : 20.3002  
+Pressure : 1003.78 
+ 
+RSSI : -49 
+Time Recived : 367.628 
+No Data Recived : 368.634 
+No Data Recived : 369.64 
+No Data Recived : 370.645 
+No Data Recived : 371.651 
+No Data Recived : 372.656 
+No Data Recived : 373.661 
+No Data Recived : 374.666 
+No Data Recived : 375.671 
+No Data Recived : 376.676 
+No Data Recived : 377.681 
+No Data Recived : 378.686 
+No Data Recived : 379.692 
+No Data Recived : 380.697 
+No Data Recived : 381.702 
+No Data Recived : 382.707 
+No Data Recived : 383.71 
+No Data Recived : 384.715 
+Radio Module Initialised! 
+RSSI : -47 
+Time Recived : 385.295 
+Sensor Module Initialised! 
+RSSI : -47 
+Time Recived : 385.384 
+Hello from CanSat! 
+RSSI : -48 
+Time Recived : 385.445 
+Begining Transmition... 
+RSSI : -48 
+Time Recived : 385.514 
+Sent : None  
+Temperature : 20.2705  
+Pressure : 1003.79 
+ 
+RSSI : -47 
+Time Recived : 385.717 
+No Data Recived : 386.723 
+Sent : None  
+Temperature : 20.2879  
+Pressure : 1003.76 
+ 
+RSSI : -47 
+Time Recived : 386.92 
+No Data Recived : 387.925 
+No Data Recived : 388.931 
+Sent : None  
+Temperature : 20.3002  
+Pressure : 1003.79 
+ 
+RSSI : -47 
+Time Recived : 389.213 
+No Data Recived : 390.219 
+Sent : None  
+Temperature : 20.3002  
+Pressure : 1003.81 
+ 
+RSSI : -47 
+Time Recived : 390.416 
+No Data Recived : 391.422 
+No Data Recived : 392.427 
+Sent : None  
+Temperature : 20.2605  
+Pressure : 1003.8 
+ 
+RSSI : -48 
+Time Recived : 392.711 
+No Data Recived : 393.716 
+Sent : None  
+Temperature : 20.2805  
+Pressure : 1003.78 
+ 
+RSSI : -46 
+Time Recived : 393.914 
+No Data Recived : 394.918 
+Sent : None  
+Temperature : 20.2928  
+Pressure : 1003.83 
+ 
+RSSI : -47 
+Time Recived : 395.117 
+No Data Recived : 396.122 
+Sent : None  
+Temperature : 20.3002  
+Pressure : 1003.8 
+ 
+RSSI : -46 
+Time Recived : 396.319 
+No Data Recived : 397.325 
+Sent : None  
+Temperature : 20.3053  
+Pressure : 1003.79 
+ 
+RSSI : -45 
+Time Recived : 397.521 
+No Data Recived : 398.527 
+Sent : None  
+Temperature : 20.315  
+Pressure : 1003.78 
+ 
+RSSI : -46 
+Time Recived : 398.724 
+No Data Recived : 399.729 
+Sent : None  
+Temperature : 20.3201  
+Pressure : 1003.78 
+ 
+RSSI : -45 
+Time Recived : 399.926 
+No Data Recived : 400.932 
+Sent : None  
+Temperature : 20.3275  
+Pressure : 1003.8 
+ 
+RSSI : -47 
+Time Recived : 401.129 
+No Data Recived : 402.135 
+Sent : None  
+Temperature : 20.3398  
+Pressure : 1003.83 
+ 
+RSSI : -47 
+Time Recived : 402.331 
+No Data Recived : 403.335 
+Sent : None  
+Temperature : 20.3547  
+Pressure : 1003.84 
+ 
+RSSI : -47 
+Time Recived : 403.534 
+No Data Recived : 404.539 
+Sent : None  
+Temperature : 20.3449  
+Pressure : 1003.81 
+ 
+RSSI : -47 
+Time Recived : 404.737 
+No Data Recived : 405.742 
+Sent : None  
+Temperature : 20.3498  
+Pressure : 1003.84 
+ 
+RSSI : -43 
+Time Recived : 405.939 
+No Data Recived : 406.945 
+Sent : None  
+Temperature : 20.3498  
+Pressure : 1003.82 
+ 
+RSSI : -42 
+Time Recived : 407.143 
+No Data Recived : 408.149 
+Sent : None  
+Temperature : 20.3523  
+Pressure : 1003.81 
+ 
+RSSI : -40 
+Time Recived : 408.343 
+No Data Recived : 409.349 
+Sent : None  
+Temperature : 20.3572  
+Pressure : 1003.82 
+ 
+RSSI : -41 
+Time Recived : 409.546 
+No Data Recived : 410.551 
+Sent : None  
+Temperature : 20.3721  
+Pressure : 1003.85 
+ 
+RSSI : -41 
+Time Recived : 410.75 
+No Data Recived : 411.755 
+Sent : None  
+Temperature : 20.3795  
+Pressure : 1003.83 
+ 
+RSSI : -41 
+Time Recived : 411.953 
+No Data Recived : 412.958 
+Sent : None  
+Temperature : 20.3795  
+Pressure : 1003.86 
+ 
+RSSI : -41 
+Time Recived : 413.154 
+No Data Recived : 414.16 
+Sent : None  
+Temperature : 20.3721  
+Pressure : 1003.84 
+ 
+RSSI : -42 
+Time Recived : 414.357 
+No Data Recived : 415.362 
+Sent : None  
+Temperature : 20.3721  
+Pressure : 1003.85 
+ 
+RSSI : -42 
+Time Recived : 415.559 
+No Data Recived : 416.564 
+Sent : None  
+Temperature : 20.3771  
+Pressure : 1003.8 
+ 
+RSSI : -42 
+Time Recived : 416.761 
+No Data Recived : 417.766 
+Sent : None  
+Temperature : 20.3846  
+Pressure : 1003.82 
+ 
+RSSI : -41 
+Time Recived : 417.963 
+No Data Recived : 418.969 
+Sent : None  
+Temperature : 20.392  
+Pressure : 1003.82 
+ 
+RSSI : -42 
+Time Recived : 419.166 
+No Data Recived : 420.172 
+Sent : None  
+Temperature : 20.3945  
+Pressure : 1003.82 
+ 
+RSSI : -41 
+Time Recived : 420.368 
+No Data Recived : 421.374 
+Sent : None  
+Temperature : 20.4043  
+Pressure : 1003.83 
+ 
+RSSI : -41 
+Time Recived : 421.571 
+No Data Recived : 422.577 
+Sent : None  
+Temperature : 20.3646  
+Pressure : 1003.84 
+ 
+RSSI : -42 
+Time Recived : 422.774 
+No Data Recived : 423.779 
+No Data Recived : 424.784 
+No Data Recived : 425.789 
+No Data Recived : 426.793 
+No Data Recived : 427.799 
+No Data Recived : 428.805 
+No Data Recived : 429.811 
+No Data Recived : 430.816 
+No Data Recived : 431.821 
+No Data Recived : 432.826 
+No Data Recived : 433.831 
+No Data Recived : 434.835 
+No Data Recived : 435.84 

@@ -1,0 +1,489 @@
+ ]0;🐍code.py | 9.2.4 \Ground Station Pico Starting... 
+Radio Initialised Succesfully! 
+Time: 2.347 
+Begining to recieve radio messages... 
+Temp : 17.2553 
+ Pressure : 1015.95 
+ 
+RSSI : -41 
+Time Recived : 3.349 
+No Data Recived : 4.355 
+Temp : 17.2727 
+ Pressure : 1015.94 
+ 
+RSSI : -41 
+Time Recived : 4.517 
+No Data Recived : 5.523 
+Temp : 17.2703 
+ Pressure : 1015.95 
+ 
+RSSI : -41 
+Time Recived : 5.689 
+No Data Recived : 6.695 
+Temp : 17.2752 
+ Pressure : 1015.93 
+ 
+RSSI : -40 
+Time Recived : 6.861 
+No Data Recived : 7.866 
+Temp : 17.2801 
+ Pressure : 1015.94 
+ 
+RSSI : -40 
+Time Recived : 8.033 
+No Data Recived : 9.039 
+Temp : 17.2852 
+ Pressure : 1015.93 
+ 
+RSSI : -41 
+Time Recived : 9.205 
+No Data Recived : 10.21 
+Temp : 17.2877 
+ Pressure : 1015.95 
+ 
+RSSI : -41 
+Time Recived : 10.376 
+No Data Recived : 11.382 
+Temp : 17.29 
+ Pressure : 1015.94 
+ 
+RSSI : -40 
+Time Recived : 11.548 
+No Data Recived : 12.554 
+Temp : 17.3 
+ Pressure : 1015.94 
+ 
+RSSI : -40 
+Time Recived : 12.715 
+No Data Recived : 13.72 
+Temp : 17.3025 
+ Pressure : 1015.94 
+ 
+RSSI : -40 
+Time Recived : 13.887 
+No Data Recived : 14.893 
+Temp : 17.3049 
+ Pressure : 1015.92 
+ 
+RSSI : -41 
+Time Recived : 15.06 
+No Data Recived : 16.065 
+Temp : 17.3074 
+ Pressure : 1015.92 
+ 
+RSSI : -41 
+Time Recived : 16.231 
+No Data Recived : 17.236 
+Temp : 17.3148 
+ Pressure : 1015.92 
+ 
+RSSI : -41 
+Time Recived : 17.402 
+No Data Recived : 18.408 
+Temp : 17.3123 
+ Pressure : 1015.95 
+ 
+RSSI : -41 
+Time Recived : 18.573 
+No Data Recived : 19.578 
+Temp : 17.3248 
+ Pressure : 1015.92 
+ 
+RSSI : -40 
+Time Recived : 19.745 
+No Data Recived : 20.75 
+Temp : 17.3223 
+ Pressure : 1015.9 
+ 
+RSSI : -41 
+Time Recived : 20.916 
+No Data Recived : 21.921 
+Temp : 17.3297 
+ Pressure : 1015.91 
+ 
+RSSI : -41 
+Time Recived : 22.088 
+No Data Recived : 23.094 
+Temp : 17.3297 
+ Pressure : 1015.89 
+ 
+RSSI : -41 
+Time Recived : 23.26 
+No Data Recived : 24.266 
+Temp : 17.3396 
+ Pressure : 1015.89 
+ 
+RSSI : -40 
+Time Recived : 24.432 
+No Data Recived : 25.438 
+Temp : 17.3396 
+ Pressure : 1015.92 
+ 
+RSSI : -40 
+Time Recived : 25.607 
+No Data Recived : 26.612 
+Temp : 17.3371 
+ Pressure : 1015.91 
+ 
+RSSI : -40 
+Time Recived : 26.779 
+No Data Recived : 27.784 
+Temp : 17.3471 
+ Pressure : 1015.91 
+ 
+RSSI : -40 
+Time Recived : 27.951 
+No Data Recived : 28.957 
+Temp : 17.3521 
+ Pressure : 1015.91 
+ 
+RSSI : -41 
+Time Recived : 29.124 
+No Data Recived : 30.127 
+Temp : 17.357 
+ Pressure : 1015.93 
+ 
+RSSI : -41 
+Time Recived : 30.297 
+No Data Recived : 31.303 
+Temp : 17.3545 
+ Pressure : 1015.94 
+ 
+RSSI : -41 
+Time Recived : 31.469 
+No Data Recived : 32.474 
+Temp : 17.3644 
+ Pressure : 1015.92 
+ 
+RSSI : -41 
+Time Recived : 32.641 
+No Data Recived : 33.646 
+Temp : 17.3596 
+ Pressure : 1015.94 
+ 
+RSSI : -41 
+Time Recived : 33.813 
+No Data Recived : 34.821 
+Temp : 17.367 
+ Pressure : 1015.91 
+ 
+RSSI : -41 
+Time Recived : 34.983 
+No Data Recived : 35.989 
+Temp : 17.3719 
+ Pressure : 1015.93 
+ 
+RSSI : -41 
+Time Recived : 36.156 
+No Data Recived : 37.162 
+Temp : 17.3719 
+ Pressure : 1015.91 
+ 
+RSSI : -41 
+Time Recived : 37.328 
+No Data Recived : 38.333 
+Temp : 17.3844 
+ Pressure : 1015.94 
+ 
+RSSI : -40 
+Time Recived : 38.5 
+No Data Recived : 39.505 
+Temp : 17.3744 
+ Pressure : 1015.91 
+ 
+RSSI : -41 
+Time Recived : 39.671 
+No Data Recived : 40.677 
+Temp : 17.3793 
+ Pressure : 1015.88 
+ 
+RSSI : -41 
+Time Recived : 40.843 
+No Data Recived : 41.849 
+Temp : 17.3893 
+ Pressure : 1015.92 
+ 
+RSSI : -41 
+Time Recived : 42.016 
+No Data Recived : 43.021 
+Temp : 17.3893 
+ Pressure : 1015.92 
+ 
+RSSI : -41 
+Time Recived : 43.187 
+No Data Recived : 44.192 
+Temp : 17.3967 
+ Pressure : 1015.9 
+ 
+RSSI : -41 
+Time Recived : 44.359 
+No Data Recived : 45.364 
+Temp : 17.3992 
+ Pressure : 1015.89 
+ 
+RSSI : -41 
+Time Recived : 45.531 
+No Data Recived : 46.536 
+Temp : 17.3992 
+ Pressure : 1015.92 
+ 
+RSSI : -41 
+Time Recived : 46.703 
+No Data Recived : 47.708 
+Temp : 17.3918 
+ Pressure : 1015.91 
+ 
+RSSI : -41 
+Time Recived : 47.874 
+No Data Recived : 48.877 
+Temp : 17.4041 
+ Pressure : 1015.92 
+ 
+RSSI : -41 
+Time Recived : 49.045 
+No Data Recived : 50.051 
+Temp : 17.4066 
+ Pressure : 1015.92 
+ 
+RSSI : -41 
+Time Recived : 50.218 
+No Data Recived : 51.223 
+Temp : 17.4066 
+ Pressure : 1015.89 
+ 
+RSSI : -40 
+Time Recived : 51.389 
+No Data Recived : 52.395 
+Temp : 17.4115 
+ Pressure : 1015.92 
+ 
+RSSI : -40 
+Time Recived : 52.561 
+No Data Recived : 53.567 
+Temp : 17.4166 
+ Pressure : 1015.92 
+ 
+RSSI : -41 
+Time Recived : 53.736 
+No Data Recived : 54.741 
+Temp : 17.4189 
+ Pressure : 1015.91 
+ 
+RSSI : -40 
+Time Recived : 54.907 
+No Data Recived : 55.913 
+Temp : 17.4215 
+ Pressure : 1015.94 
+ 
+RSSI : -41 
+Time Recived : 56.079 
+No Data Recived : 57.084 
+Temp : 17.4289 
+ Pressure : 1015.93 
+ 
+RSSI : -41 
+Time Recived : 57.251 
+No Data Recived : 58.256 
+Temp : 17.4264 
+ Pressure : 1015.92 
+ 
+RSSI : -40 
+Time Recived : 58.422 
+No Data Recived : 59.428 
+Temp : 17.4264 
+ Pressure : 1015.94 
+ 
+RSSI : -41 
+Time Recived : 59.594 
+No Data Recived : 60.6 
+Temp : 17.4314 
+ Pressure : 1015.93 
+ 
+RSSI : -41 
+Time Recived : 60.766 
+No Data Recived : 61.772 
+Temp : 17.434 
+ Pressure : 1015.93 
+ 
+RSSI : -41 
+Time Recived : 61.939 
+No Data Recived : 62.944 
+Temp : 17.4314 
+ Pressure : 1015.9 
+ 
+RSSI : -41 
+Time Recived : 63.111 
+No Data Recived : 64.116 
+Temp : 17.4437 
+ Pressure : 1015.92 
+ 
+RSSI : -41 
+Time Recived : 64.283 
+No Data Recived : 65.288 
+Temp : 17.4437 
+ Pressure : 1015.9 
+ 
+RSSI : -43 
+Time Recived : 65.455 
+No Data Recived : 66.462 
+Temp : 17.4414 
+ Pressure : 1015.92 
+ 
+RSSI : -41 
+Time Recived : 66.626 
+No Data Recived : 67.632 
+Temp : 17.4437 
+ Pressure : 1015.92 
+ 
+RSSI : -42 
+Time Recived : 67.797 
+No Data Recived : 68.802 
+Temp : 17.4537 
+ Pressure : 1015.91 
+ 
+RSSI : -42 
+Time Recived : 68.969 
+No Data Recived : 69.974 
+Temp : 17.4537 
+ Pressure : 1015.94 
+ 
+RSSI : -41 
+Time Recived : 70.141 
+No Data Recived : 71.147 
+Temp : 17.4611 
+ Pressure : 1015.89 
+ 
+RSSI : -41 
+Time Recived : 71.314 
+No Data Recived : 72.319 
+Temp : 17.4637 
+ Pressure : 1015.92 
+ 
+RSSI : -50 
+Time Recived : 72.484 
+No Data Recived : 73.489 
+Temp : 17.4637 
+ Pressure : 1015.9 
+ 
+RSSI : -41 
+Time Recived : 73.656 
+No Data Recived : 74.661 
+Temp : 17.4637 
+ Pressure : 1015.92 
+ 
+RSSI : -47 
+Time Recived : 74.828 
+No Data Recived : 75.833 
+Temp : 17.4711 
+ Pressure : 1015.92 
+ 
+RSSI : -53 
+Time Recived : 76.0 
+No Data Recived : 77.005 
+Temp : 17.4711 
+ Pressure : 1015.9 
+ 
+RSSI : -43 
+Time Recived : 77.172 
+No Data Recived : 78.177 
+Temp : 17.4785 
+ Pressure : 1015.92 
+ 
+RSSI : -43 
+Time Recived : 78.343 
+No Data Recived : 79.349 
+Temp : 17.4736 
+ Pressure : 1015.9 
+ 
+RSSI : -43 
+Time Recived : 79.515 
+No Data Recived : 80.521 
+Temp : 17.4711 
+ Pressure : 1015.92 
+ 
+RSSI : -42 
+Time Recived : 80.689 
+No Data Recived : 81.694 
+Temp : 17.481 
+ Pressure : 1015.9 
+ 
+RSSI : -43 
+Time Recived : 81.861 
+No Data Recived : 82.867 
+Temp : 17.4834 
+ Pressure : 1015.89 
+ 
+RSSI : -42 
+Time Recived : 83.033 
+No Data Recived : 84.038 
+Temp : 17.4834 
+ Pressure : 1015.91 
+ 
+RSSI : -43 
+Time Recived : 84.205 
+No Data Recived : 85.209 
+Temp : 17.4885 
+ Pressure : 1015.91 
+ 
+RSSI : -43 
+Time Recived : 85.377 
+No Data Recived : 86.383 
+Temp : 17.4984 
+ Pressure : 1015.93 
+ 
+RSSI : -43 
+Time Recived : 86.549 
+No Data Recived : 87.555 
+Temp : 17.4934 
+ Pressure : 1015.92 
+ 
+RSSI : -42 
+Time Recived : 87.722 
+No Data Recived : 88.727 
+Temp : 17.4959 
+ Pressure : 1015.94 
+ 
+RSSI : -53 
+Time Recived : 88.894 
+No Data Recived : 89.9 
+Temp : 17.5008 
+ Pressure : 1015.91 
+ 
+RSSI : -42 
+Time Recived : 90.066 
+No Data Recived : 91.071 
+Temp : 17.5008 
+ Pressure : 1015.95 
+ 
+RSSI : -48 
+Time Recived : 91.238 
+No Data Recived : 92.243 
+Temp : 17.5033 
+ Pressure : 1015.91 
+ 
+RSSI : -50 
+Time Recived : 92.408 
+No Data Recived : 93.413 
+Temp : 17.5008 
+ Pressure : 1015.92 
+ 
+RSSI : -51 
+Time Recived : 93.58 
+No Data Recived : 94.585 
+Temp : 17.5033 
+ Pressure : 1015.92 
+ 
+RSSI : -49 
+Time Recived : 94.751 
+No Data Recived : 95.756 
+Temp : 17.5082 
+ Pressure : 1015.94 
+ 
+RSSI : -56 
+Time Recived : 95.923 
+No Data Recived : 96.928 
+Temp : 17.5133 
+ Pressure : 1015.94 
+ 
+RSSI : -66 
+Time Recived : 97.095 
