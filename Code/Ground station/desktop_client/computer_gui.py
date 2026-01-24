@@ -25,6 +25,7 @@ class Window(tk.Tk):
                 data = data.replace("\033", " ")
 
                 self.text.insert("end", data)
+                self.text.see("end")
                 self.log.write(str(data))
         except serial.SerialException:
             # output a warning on exception

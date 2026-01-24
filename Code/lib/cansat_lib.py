@@ -19,16 +19,16 @@ class Radio:
                 data = str(data, 'ascii')
 
                 #print recived time and signal strength
-                print("{} \nRSSI : {}, Uptime {}".format(data, self.rfm9x.rssi, str_time()))
+                print(",{}, {}, {},CVC-CANSAT-END".format(data, self.rfm9x.rssi, str_time()))
             else:
-                print("No data recieved : {}".format(str_time()))
+                pass
                 
         except Exception as e:
             print("Radio falire!\nThe exception that occred was: {}".format(e))
 
     def send(self, message):
         # append the signiture of the CanSat
-        message = "CVC-CANSAT:" + message
+        message = "CVC-CANSAT-START," + message
         #radio can't send over 255 bytes, so limit the message at that
         if len(message) > 255:
             print("Message too large! Cutting it short at 255 bytes...")
