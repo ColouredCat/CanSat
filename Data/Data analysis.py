@@ -17,8 +17,3 @@ plt.plot(df["TurbulenceZ"], label = "z")
 plt.legend()
 plt.show()
 
-
-plt.plot(df["temp"], label = "temp")
-plt.plot(df["pressure"], label = "pressure")
-plt.legend()
-plt.show()
